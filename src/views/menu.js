@@ -481,9 +481,14 @@ async function loadUserDashboardData(metricsContainer, ordersTbody, user) {
                 </div>
             </div>
         `;
-
+        // 1. [...userOrders] crea una copia para no modificar el array original (inmutabilidad).
+        // 2. .sort() organiza los elementos basándose en el resultado de la resta.
+        // 3. (b - a) ordena de forma descendente (la fecha más reciente primero).
+        // 4. || 0 evita errores si 'createdAt' es null o undefined, usando la fecha base 0.
         const sorted = [...userOrders].sort((a,b) => (new Date(b.createdAt||0)) - (new Date(a.createdAt||0)));
 
+
+        //Esta línea de código transforma los 10 pedidos más recientes en filas HTML, formateando sus fechas, estados y montos con dos decimales.
         const rowsHtml = sorted.slice(0, 10).map(o => {
             const date = o.createdAt ? new Date(o.createdAt).toLocaleString() : '-';
             const status = o.status || 'pending';

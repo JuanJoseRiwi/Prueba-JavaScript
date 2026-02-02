@@ -53,22 +53,21 @@ SECURITY
 
 INSTALLATION
 
-1. Create a project with Vite:
-npm create vite@latest crudtask
 
-2. Install dependencies:
-npm install
+Install dependencies:
+npm init -y
+npm install -g json-server
+npm install -D vite
 
-3. Run the project:
+
+Run the project:
 npm run dev
 npm run server
 
-4. Install JSON Server:
-npm install -g json-server
 
-5. Run JSON Server:
-json-server --watch db.json --port 3000
 
+Run JSON Server:
+npm run server
 CONCLUSION
 
 CRUDTASK is an academic project that simulates a complete web application for task management, fulfilling the module requirements and applying fundamental concepts of modern web development.

@@ -20,6 +20,20 @@
       "email": "asd",
       "password": "adasd",
       "role": "user"
+    },
+    {
+      "id": "ccd9",
+      "name": "salva",
+      "email": "s@gmail.com",
+      "password": "120",
+      "role": "user"
+    },
+    {
+      "id": "979d",
+      "name": "juan",
+      "email": "angela@gmail.com",
+      "password": "123",
+      "role": "user"
     }
   ],
   "products": [
@@ -200,6 +214,16 @@
       "priority": "Medium",
       "dueDate": "2000-12-12",
       "createdAt": "2026-02-02T15:01:11.217Z"
+    },
+    {
+      "id": "d3de",
+      "name": "PROFE NECESITO 70 PA GANAR",
+      "desc": "PROFE NECESITO 70 PA GANAR",
+      "assignee": "PROFE NECESITO 70 PA GANAR",
+      "status": "preparing",
+      "priority": "High",
+      "dueDate": "2026-02-02",
+      "createdAt": "2026-02-02T18:17:31.577Z"
     }
   ]
 }
