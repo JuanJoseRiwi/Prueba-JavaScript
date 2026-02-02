@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": "58aa",
+      "name": "Robinson",
+      "email": "user@test.com",
+      "password": "1231",
+      "role": "user"
+    },
+    {
+      "id": "130a",
+      "name": "juan",
+      "email": "gua@gmail.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "3efd",
+      "name": "<sdasd",
+      "email": "asd",
+      "password": "adasd",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "p001",
+      "name": "Total Task",
+      "description": "+12% from last week",
+      "price": 24,
+      "stock": 24,
+      "category": "Burgers",
+      "img": ""
+    },
+    {
+      "id": "6c99",
+      "name": "Completed",
+      "price": 18,
+      "stock": 18,
+      "description": "On track",
+      "category": "Drinks",
+      "img": ""
+    },
+    {
+      "id": "9da1",
+      "name": "Pending",
+      "price": 6,
+      "category": "Burgers",
+      "stock": 20,
+      "img": "",
+      "description": "2 High Priority"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o001",
+      "userId": "u001",
+      "products": [
+        {
+          "productId": "p001",
+          "quantity": 2
+        }
+      ],
+      "totalPrice": 59.98,
+      "orderDate": "2024-06-15T14:30:00Z",
+      "status": "Processing"
+    },
+    {
+      "items": [
+        {
+          "productId": "p001",
+          "name": "Hamburguer",
+          "price": 29.99,
+          "quantity": 6
+        }
+      ],
+      "total": 179.94,
+      "status": "pending",
+      "id": "40b0"
+    },
+    {
+      "id": "4471",
+      "createdAt": "2026-02-02T12:37:33.002Z",
+      "userId": null,
+      "user": {
+        "name": "HFGN",
+        "email": "gua@gmail.com"
+      },
+      "items": [
+        {
+          "productId": "6c99",
+          "name": "Coca-Cola",
+          "price": 5,
+          "quantity": 4
+        }
+      ],
+      "total": 20,
+      "status": "pending"
+    },
+    {
+      "id": "b531",
+      "createdAt": "2026-02-02T12:38:15.313Z",
+      "userId": null,
+      "user": {
+        "name": "HFGN",
+        "email": "gua@gmail.com"
+      },
+      "items": [
+        {
+          "productId": "6c99",
+          "name": "Coca-Cola",
+          "price": 5,
+          "quantity": 5
+        },
+        {
+          "productId": "p001",
+          "name": "Hamburguer",
+          "price": 29.99,
+          "quantity": 3
+        }
+      ],
+      "total": 114.97,
+      "status": "pending"
+    },
+    {
+      "id": "e9e2",
+      "createdAt": "2026-02-02T12:47:53.449Z",
+      "userId": null,
+      "user": {
+        "name": "HFGN",
+        "email": "gua@gmail.com"
+      },
+      "items": [
+        {
+          "productId": "p001",
+          "name": "Hamburguer",
+          "price": 29.99,
+          "quantity": 3
+        }
+      ],
+      "total": 89.97,
+      "status": "pending"
+    },
+    {
+      "id": "1ea3",
+      "createdAt": "2026-02-02T12:57:55.920Z",
+      "userId": null,
+      "user": {
+        "name": "JUAN",
+        "email": "juan@gmail.com"
+      },
+      "items": [
+        {
+          "productId": "9da1",
+          "name": "Pending",
+          "price": 6,
+          "quantity": 1
+        }
+      ],
+      "total": 6,
+      "status": "pending"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t3",
+      "name": "Quarterly Review",
+      "desc": "Prepare slides for Q1 review",
+      "assignee": "JUAN",
+      "status": "delivered",
+      "priority": "Low",
+      "dueDate": "2026-01-20"
+    },
+    {
+      "id": "8c8e",
+      "name": "sca",
+      "desc": "sdcasd",
+      "assignee": "asdasd",
+      "status": "preparing",
+      "priority": "High",
+      "dueDate": "2003-12-12",
+      "createdAt": "2026-02-02T14:02:30.086Z"
+    },
+    {
+      "id": "ce5b",
+      "name": "fahdh",
+      "desc": "dfhdfh",
+      "assignee": "dfhdfh",
+      "status": "ready",
+      "priority": "Medium",
+      "dueDate": "2027-02-12",
+      "createdAt": "2026-02-02T14:41:06.901Z"
+    },
+    {
+      "id": "606e",
+      "name": "salvador",
+      "desc": "aponte",
+      "assignee": "jasda",
+      "status": "pending",
+      "priority": "Medium",
+      "dueDate": "2000-12-12",
+      "createdAt": "2026-02-02T15:01:11.217Z"
+    }
+  ]
+}
